@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bookkeeper-app/static/css/main.bf1e94db.css",
+    "main.js": "/bookkeeper-app/static/js/main.2e0511ce.js",
+    "index.html": "/bookkeeper-app/index.html",
+    "main.bf1e94db.css.map": "/bookkeeper-app/static/css/main.bf1e94db.css.map",
+    "main.2e0511ce.js.map": "/bookkeeper-app/static/js/main.2e0511ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf1e94db.css",
+    "static/js/main.2e0511ce.js"
+  ]
+}
