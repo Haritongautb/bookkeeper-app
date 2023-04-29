@@ -38,5 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://haritongautb.github.io/bookkeeper-app"
+  "homepage": "http://haritongautb.github.io/bookkeeper-app",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
