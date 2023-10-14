@@ -1,8 +1,8 @@
-import {Component} from "react";
+import { Component } from "react";
 
 import "./search-panel.css";
 
-class SearchPanel extends Component{
+class SearchPanel extends Component {
     constructor(props) {
         super(props)
 
@@ -13,18 +13,18 @@ class SearchPanel extends Component{
 
     onChangeTerm = (event) => {
         const term = event.target.value;
-        this.setState({term})
+        this.setState({ term })
         this.props.onChangeTerm(term);
     }
 
     render() {
-        const {term} = this.state;
+        const { term } = this.state;
         return (
-            <input type="text" 
-                className="form-control search-input" 
-                placeholder="Найти сотрудника"
+            <input type="text"
+                className="form-control search-input"
+                placeholder="Find an employee"
                 value={term}
-                onChange={this.onChangeTerm}/>
+                onChange={this.onChangeTerm} />
         )
     }
 };
